@@ -18,15 +18,15 @@ new = []
 for d in data:
 	if len(d) < 100:
 		new.append(d)
-print(len(new))
+print('總共有', len(new), '筆')
 print(new[0])
 
 good = []
 for d in data:
 	if 'good' in d:
 		good.append(d)
-print(len(good))
-print(good[0])		
+print('總共有', len(good), '筆')
+print(good[0])	
 
 
 
